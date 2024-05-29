@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS4 Debrief</title>
+
+    <link rel="stylesheet" href="./asset/style.css">
+</head>
+
+<body>
+    <div class="heading-wrapper">
+        <h1>JS4 Debrief - DOM Manipulation</h1>
+    </div>
+
+    <div class="container">
+
+        <div class="dynamic-html">
+            <!-- DYNAMIC HTML -->
+        </div>
+
+        <form>
+            <h2>Select A Fruit</h2>
+
+            <label for="apple">Apple</label>
+            <input type="checkbox" id="apple" name="apple" value="apple">
+            <br>
+
+            <label for="banana">Banana</label>
+            <input type="checkbox" name="banana" id="banana" value="banana">
+            <br>
+
+            <label for="grape">Grape</label>
+            <input type="checkbox" name="grape" id="grape" value="grape">
+            <br>
+
+            <label for="orange">Orange</label>
+            <input type="checkbox" name="orange" id="orange" value="orange">
+            <br>
+
+        </form>
+
+        <h2>Select A Fruit</h2>
+        <div class="fruit-boxes">
+            <div class="fruit-box">
+                <p class="fruit">Apple</p>
+                <button class="fb-btn">Click for Apples!</button>
+                <div class="fruit-result">
+                    <img class="fb-img" src="./asset/images/apple.jpeg" alt="This is an Apple!">
+                    <br>
+                    <input type="number" id="fruit-amount" value="0" min="0" readonly>
+                </div>
+            </div>
+            <div class="fruit-box">
+                <p class="fruit">Banana</p>
+                <button class="fb-btn">Click for Bananas!</button>
+                <div class="fruit-result">
+                    <img class="fb-img" src="./asset/images/banana.jpeg" alt="This is an banana!">
+                    <br>
+                    <input type="number" id="fruit-amount" value="0" min="0" readonly>
+                </div>
+            </div>
+            <div class="fruit-box">
+                <p class="fruit">Grape</p>
+                <button class="fb-btn">Click for Grapes!</button>
+                <div class="fruit-result">
+                    <img class="fb-img" src="./asset/images/grape.jpeg" alt="This is an grape!">
+                    <br>
+                    <input type="number" id="fruit-amount" value="0" min="0" readonly>
+                </div>
+            </div>
+            <div class="fruit-box">
+                <p class="fruit">Orange</p>
+                <button class="fb-btn">Click for Oranges!</button>
+                <div class="fruit-result">
+                    <img class="fb-img" src="./asset/images/orange.jpeg" alt="This is an orange!">
+                    <br>
+                    <input type="number" id="fruit-amount" value="0" min="0" readonly>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="./asset/script.js"></script>
+</body>
+
+</html>
